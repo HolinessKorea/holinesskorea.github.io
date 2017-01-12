@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*main*/
+
+
+/*.main-l .t{ width:730px; height:35px;  line-height:35px; border-bottom:1px solid #E2E2E2;}
+.main-l .t h2{  font-size:18px; color:#333333; float:left;}
+.main-l .t a{ float:right;}
+.main-l .t a:hover{ color:#D2A866;}.main{ height:374px;  }*/
+
+
+
+
+.content{ width:100%; height:400px; position:relative; }
+.main{ padding:26px 20px 0 20px;}
+.main-l { width: 730px; height: 374px;  float: left;}
+.main-l .t{ width:730px; height:35px;  line-height:35px; border-bottom:1px solid #e2e2e2;}
+.main-l h2{  font-size:18px; color:#333333; float:left; font-weight: normal;}
+.main-l .t a{ float:right;}
+.main-l .t a:hover{ color:#D2A866;}
+.main-l .b{ height:189px; padding-top:20px; width:770px; float:left; }
+.main-l .b img{ float:left; width: 260px; height: 189px;}
+.main-l .b ul{ float:left; width:468px; padding-left:9px;}
+.main-l .b li{  border-left:10px; border-radius:50%;}
+.main-l .b li a{height:27px; line-height:27px; padding-left:13px;background:url(../images/dotted.png) no-repeat left center;}
+.main-l .b li a:hover{ color:#D2A866;}
+.main-r{  float: left; margin-left: 50px; margin-top: 30px;}
+.main-r img{display:block; }
+.main-r .img1{padding:13px 0 5px 0; }
+.content a.advice img{ position:absolute; bottom:0; right:0;}
+
+
+
+
+
+
+
+
+
+
+
+

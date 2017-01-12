@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+body,html{width: 100%;}
+.banner01{ background:#B9B9B9;width: 100%;}
+.banner{position:relative; overflow: hidden;height: 540px;}
+.banner ul{position:absolute;left:0;top:0;  width: 9999px;}
+.banner ul li{float: left; }
+.banner ol{width: 60px; height: 20px; background: #ccf; position: absolute;bottom:10px; left:50%; margin-left: -30px;}
+.banner ol li{ float: left; height: 20px; width: 20px; background:rgba(0,0,0,0.5); text-align: center; line-height: 20px; color:#fff; cursor:pointer;}
+.banner ol li.current{background:rgba(255,255,255,0.3); color:#FFFF00;}
+.main{background: #E7E7E7;}
+.news h1{font-size: 36px;font-family: Arial;text-align: center;padding-top: 30px;line-height: 70px;}
+.news h2{ height: 70px; width: 180px; text-align: center; margin:0 auto;}
+.news h2 a{color:#AA0000; text-decoration:underline; left: 50%;background:url("../images/xian_1.jpg") no-repeat center top;font-size: 14px;font-family: "微软雅黑";position: absolute;line-height: 70px;width: 180px; margin-left: -90px;}
+.newsl-l{ margin-left: 20px;width: 300px; height: 400px; float: left;}
+.newsl-tit{height:18px; line-height: 18px; margin: 20px 0px 30px;}
+.newsl-tit a{ color:#000;font-size: 14px; line-height: 18px;}
+.newsl .show .neirong{border-top: 6px solid #000; margin:20px 0;}
+.newsl .show .neirong p{margin-top: 20px; line-height: 18px;}
+.newsl .show .more{width: 46px; height: 24px;background: #000;padding-left:10px;}
+.newsl .show .more a{line-height: 24px; color:#fff; text-align:center;}
+.newsl-c{ margin-left: 30px;width: 300px; height: 400px; float: left; }
+.newsl-r{ margin-left: 30px;width: 300px; height: 400px; float: left;}
+
+.aboutus h1{padding-top: 30px; line-height: 70px; text-align: center; color:#000;font-size: 36px;}
+.aboutus h2{width: 180px; line-height:71px; text-align: center; color:#000;font-size: 36px; border-top: 1px solid #000;font-size: 14px; margin:0 auto;}
+.about-l{width: 290px; height: 180px; line-height: 18px; float: left;}
+.about-c{width: 290px; height: 180px; line-height: 18px; margin:0 40px; float: left;}
+.about-r{width: 290px; height: 180px; line-height: 18px; float: left;}
+
+.shop{ height: 324px; margin-top: 100px;padding-bottom: 37px;}
+.map{width: 322px; height: 194px; background:url(../images/map.jpg) no-repeat; padding-top: 130px;float: left;}
+.map .a1{display:block; height: 37px; text-align: center;color: #FFF;font-size: 30px;}
+
+.map .a2{display:block; height: 14px; text-align: center;color: #FFF; margin-top: 10px;}
+.map a:hover{color:#ccc; text-decoration: underline;}
+.store{float:left;}
+
+
+
+
+

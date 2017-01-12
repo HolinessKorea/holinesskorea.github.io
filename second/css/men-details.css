@@ -1,0 +1,41 @@
+@charset "utf-8";
+a{ text-decoration:none; font-family:"微软雅黑"; color:#FFFFFF;}
+/* left_nav */
+
+.left_nav{ height: 1440px; width: 200px; background:rgba(60,60,60,0.64); float: left; margin-bottom:10px;}
+.left_nav ul{height: 35px; line-height: 35px; font-family:"微软雅黑"; font-weight:bold;}
+.left_nav li{ width:200px; text-align:center; padding:8px 0;}
+.left_nav li a{  color:#686868; display:inline-block; height: 40px; width: 199px; padding-top:10px; font-size:12px;}
+.left_nav li a:hover{ color:#FFFFFF; background:#000000;}
+.left_nav li.s{ padding-top:30px;}
+
+/* 衣服详情 */ 
+
+.con_show{ width: 750px; height: 1400px; background:url(../images/dt_bg.png) repeat-y; float: right; margin-top:10px; padding-top:30px; overflow:hidden; position:relative;}
+.con_show a.more_goods{ position:absolute; bottom:15px; left:50%; margin-left:-150px; height: 30px; line-height: 30px; width:300px; background:rgba(156,156,156,0.2); border-radius:6px; text-align:center; font-size:12px; color:rgba(255,255,255,0.73);}
+.con_show a.more_goods:hover{ background:rgba(0,0,0,1.00); color:#fff;}
+.con_show .top{ text-align:center;}
+.con_show .top p.no1{font-size:10px; font-family:"simhei",Verdana; color:#FFFFFF;  }
+.con_show .top p.no2{ font-size:50px; font-family:"simhei",Verdana; font-weight:bold; color:#fff;}
+.con_show .top .banner img{ border:2px solid #FFFFFF; margin: 20px 0;}
+.con_show .pass i{ font-family:"iconfont"; float: right; font-size:25px;  font-style:normal;}
+.con_show .pass{ color:#FFFFFF; height:30px;border-bottom:2px solid #666666; padding-left:5px; width:730px; margin:0 auto;}
+.con_show .pass .waitao{ float: left;}
+.con_show .pass .paixu{ float: right; width: 200px; height: 25px;}
+.con_show .pass .paixu a{ display:inline-block; width:200px; height: 25px;}
+.con_show .pass .paixu a:hover{float: left; color: #000; background:#626262;}
+
+.nav_all0 ul{ margin-top:20px; margin-left:7px;}
+.nav_all0 .nav_all i{ font-family:"iconfont"; font-size:12px; float: right; margin-right: 2px; font-style:normal;}
+.nav_all0 .nav_all{ float: left; margin-right:20px; margin-bottom:20px;}
+.nav_all0 span{ float: left; margin-left:4px;}
+.nav_all0 .nav_all a{ border:1px solid #fff; display:inline-block; height:25px; width: 140px; line-height: 25px; font-size:12px;}
+.nav_all0 .nav_all a:hover{background:#000000; border:1px solid #000000; color:#999;}
+
+.goods_bannershow{ width: 736px; height: 500px; padding:0 7px;}
+.goods_bannershow ul{ height: 380px; }
+.goods_bannershow li{ float: left; margin-right:19px; text-align:center;}
+.goods_bannershow li a{ font-size:14px; color:#666; margin-top:5px;}
+.goods_bannershow li i{ font-size:12px; color:#999; font-style:normal;}
+
+

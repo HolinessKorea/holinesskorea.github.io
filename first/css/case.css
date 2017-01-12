@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* 清除默认样式 */
+*{ margin: 0; padding: 0; }
+img{ border:0; display: block; }
+ol, ul ,li{ list-style: none; } 
+.cl{ clear:both; }
+.fl{ float:left; }
+.fr{ float:right; }
+a{ text-decoration:none; font-size:12px;font-family:"微软雅黑";}
+/* 公共类 */
+body{ background:url(../images/main_bg.jpg)}
+.wrap{width: 1340px; margin: 0 auto;}
+li{ font-size:12px; }
+p{ font-size:12px;}
+/* 头部导航和logo */
+.top{ overflow:hidden;}
+.header{ height: 44px; background: #fff;border-bottom: 2px solid #C7C7C7;}
+.top h1{padding-top: 6px; margin-left: 3px; float: left;}
+.top h1 a{width: 110px; height: 26px; background:url(../images/logo.jpg) no-repeat; text-indent:-999999px;display:inline-block; overflow:hidden;}
+.top .nav{ float: right; margin-right:3px;}
+.top .nav li{float: left; height: 44px; line-height: 44px; text-align:center;}
+.top .nav li a{ color:#171717; display:inline-block; height: 44px; padding: 0 25px; }
+.top .nav li.current{ background:#6BC30D;}
+/* 主体部分 */
+.main .banner{ height: 245px; width: 100%; background:#000000; padding-top:70px;}
+.banner .titCase{width: 288px;height: 53px;margin: 0 auto; margin-bottom: 20px;}
+.banner p{color: #cbcbcb;height: 54px;width: 648px;line-height: 18px;overflow: hidden;padding: 15px 12px 10px; margin: 0 auto; text-align:center;}
+.banner .nav{ width: 648px; height: 10px; margin:50px auto;}
+.banner .nav a{ display:inline-block; margin: 0 15px; float: left; font-size:14px; color:#FFFFFF; }
+.banner .nav a:hover{color:#6bc30d;font-weight:bold;}
+.caselist ul{ overflow:hidden;}
+.caselist ul li{ float: left;}
+.caselist{ width: 1080px; margin: 0 auto;}
+.caselist li{ overflow:hidden; position:relative;width: 270px; height: 145px;}
+.caselist li i{ position: absolute; top:0; left:0; width: 100%; height: 100%; background:rgba(0,0,0,0.5);}
+.caselist li div{position: absolute; top:0; left:0; width: 100%; height: 100%; background:rgba(107,195,13,0.9); display:none; padding: 10px;}
+.caselist li div h2{color: #fff;height: 24px;line-height: 24px;margin-bottom: 6px;overflow: hidden; padding-left: 10px;}
+.caselist li div a{ color:#fff;font-size: 22px;}
+.caselist li div p{color: #fff;height: 50%;line-height: 16px;overflow: hidden; padding:0 20px 0 10px; font-size: 12px;}
+.caselist li div a.more{padding:10px;position: absolute;right: 20px; font-size: 12px;}
+.caselist li div a.more:hover{text-decoration:underline;}
+/* 页脚部分 */
+.footer{ width: 100%;overflow:hidden;padding-top: 40px;}
+.footer_main{overflow:hidden;width: 1120px;margin: 0 auto;}
+.footer_main dl{float: left;width: 180px;}
+.footer_main dl dt a{color: #000;font-size: 16px;line-height: 19px;padding-bottom: 6px;height: 19px;}
+.footer_main dl dd a{color: #666;display: inline-block;height: 22px;line-height: 22px;text-decoration: none;}
+.footer_main .first{color: #6bc30d;font-size: 16px; float: left;width: 220px;}
+.footer_main .first .t{color: #444;font-size: 14px; font-weight:bold;}
+.footer_main .first .b{color: #444;font-size: 14px;}
+.footer_main .b01,.footer_main .b02{text-align:center;}
+/* 版权部分 */
+.copyright{padding-top: 25px;}
+.copyright p{text-align:center;color: #999;line-height: 24px;}
+
+
+    
+    
+    

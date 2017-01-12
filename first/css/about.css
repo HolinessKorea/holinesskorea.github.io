@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* 清除默认样式 */
+*{ margin: 0; padding: 0; }
+img{ border:0; display: block; }
+ol, ul ,li{ list-style: none; } 
+.cl{ clear:both; }
+.fl{ float:left; }
+.fr{ float:right; }
+a{ text-decoration:none; font-size:12px;font-family:"微软雅黑";}
+/* 公共类 */
+body{ background:url(../images/main_bg.jpg)}
+.wrap{width: 1340px; margin: 0 auto;}
+li{ font-size:12px; }
+p{ font-size:12px;}
+/* 头部导航和logo */
+.top{ overflow:hidden;}
+.header{ height: 44px; background: #fff;border-bottom: 2px solid #C7C7C7;}
+.top h1{padding-top: 6px; margin-left: 3px; float: left;}
+.top h1 a{width: 110px; height: 26px; background:url(../images/logo.jpg) no-repeat; text-indent:-999999px;display:inline-block; overflow:hidden;}
+.top .nav{ float: right; margin-right:3px;}
+.top .nav li{float: left; height: 44px; line-height: 44px; text-align:center;}
+.top .nav li a{ color:#171717; display:inline-block; height: 44px; padding: 0 25px; }
+.top .nav li.current{ background:#6BC30D;}
+/* 主体部分 */
+.banner .img_bg{ position: relative; margin-bottom: 60px;}
+.banner .img_bg .index{ position:absolute; left:50%;}
+.banner .img_bg .text{ position:absolute;}
+.banner .img_bg .text h2{ color:#fff; margin-bottom: 5px; font-size: 20px;}
+.banner .img_bg .text p{ color:#fff; width: 150px; font-size: 10px;height: 50px;}
+.banner .img_bg .text1{ top:91px; left:50%; margin-left: -380px;}
+.banner .img_bg .text2{ top:135px; left:50%; margin-left: 230px;}
+.banner .img_bg .text3{ top:400px; left:50%; margin-left: 200px;}
+.index1{ z-index: 0; margin-left: -249px;top:10px;}
+.index2{ z-index: 1; margin-left: -250px;top:0;}
+.index3{ z-index: 2; margin-left: -175px; top:65px;}
+
+.about_us{ }
+.about_us ul{ overflow:hidden;}
+.about_us ul li{ float: left; width: 380px; padding:0 32px;}
+.about_us ul li.special{border-right: 1px solid #ccc;border-left: 1px solid #ccc;}
+.about_us ul li h2{ color: #000;font-size: 26px;font-weight: normal;line-height: 30px;padding-bottom: 12px;}
+.about_us ul li p{color: #888;font-size: 12px;line-height: 18px;}
+
+.about_us01{ text-align: center; margin-top: 60px; margin-bottom: 60px;}
+.about_us01 h2{color: #000;font-size: 28px;font-weight: normal;line-height: 36px;}
+.about_us01 .p01{color: #888; line-height: 18px; width: 644px;padding: 14px 0; margin: 0 auto;}
+.about_us01 .p02{ color: #888;line-height: 15px;text-align: center;width: 1100px;margin: 0 auto; margin-bottom: 50px;}
+.about_us01 .show{ padding:0 100px; overflow:hidden;}
+.about_us01 .show .redie { float: left; border-radius: 50%; width: 200px; height: 160px; border: 1px solid #ccc;margin-right: 110px; padding-top: 40px; }
+.about_us01 .show .redie.last{ margin-right: 0;}
+.about_us01 .show .redie strong{ font-size: 28px; }
+.about_us01 .show .redie:hover{ background:#000;border: 1px solid #000; color:#fff;}
+.about_us01 .show .redie p{ font-size: 12px; margin-bottom: 20px;}
+.about_us01 .show .redie span{ display: inline-block; width: 150px; height: 40px; font-size: 12px;}
+
+.about_us02{ margin-bottom: 30px;}
+.about_us02 h2{color: #000;font-size: 28px;font-weight: normal;line-height: 36px; text-align: center;}
+.about_us02 p{color: #888; line-height: 18px; width: 1100px;padding: 14px 0;text-align: center; margin: 0 auto;}
+
+.about_us03{ padding-top: 40px;height: 200px; background:#f4f4f4; position:relative;}
+.center_banner{ position:absolute; top:50%; left:50%; margin-left: -204px; margin-top: -85px;}
+
+
+
+
+
+
+
+
+/* 页脚部分 */
+.footer{ width: 100%;overflow:hidden;padding-top: 40px;}
+.footer_main{overflow:hidden;width: 1120px;margin: 0 auto;}
+.footer_main dl{float: left;width: 180px;}
+.footer_main dl dt a{color: #000;font-size: 16px;line-height: 19px;padding-bottom: 6px;height: 19px;}
+.footer_main dl dd a{color: #666;display: inline-block;height: 22px;line-height: 22px;text-decoration: none;}
+.footer_main .first{color: #6bc30d;font-size: 16px; float: left;width: 220px;}
+.footer_main .first p.t{color: #444;font-size: 14px; font-weight:bold;}
+.footer_main .first .b{color: #444;font-size: 14px;}
+.footer_main .b01,.footer_main .b02{text-align:center;}
+/* 版权部分 */
+.copyright{padding-top: 25px;}
+.copyright p{text-align:center;color: #999;line-height: 24px;}
+
+
+    
+    
+    
